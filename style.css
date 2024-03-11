@@ -7,27 +7,32 @@ body {
 }
 .header {
     /* background-color: #1f2937; */
-    color: white;
+    color: #F9FAF8;
     font-family: 'Roboto',sans-serif;
     border: solid 2px red;
     display: flex;
+    align-items: center;
 }
 .header-logo {
     justify-content: flex-start;
     border: solid 2px red;
     margin-left: 150px;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 24px;
 }
 .header-link {
     display: flex;
     margin-left: auto;
-    justify-content: space-between;
+    margin-right: 150px;
     border: solid 2px red;
 }
-ul {
+li {
+    color: #E5E7EB;
     display: flex;
+    font-size: 18px;
+    font-weight: 400;
     list-style: none;
+    gap: 50px;
 }
 a {
     color: white;
