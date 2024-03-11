@@ -2,12 +2,32 @@
 body {
     display: flex;
     flex-direction: column;
+    background-color: #1f2937;
+    /* border: solid 2px red; */
 }
 .header {
-    background-color: #1f2937;
+    /* background-color: #1f2937; */
     color: white;
     font-family: 'Roboto',sans-serif;
-    height: 300;
+    border: solid 2px red;
+    display: flex;
+}
+.header-logo {
+    justify-content: flex-start;
+    border: solid 2px red;
+    margin-left: 150px;
+    font-weight: 600;
+    font-size: 25px;
+}
+.header-link {
+    display: flex;
+    margin-left: auto;
+    justify-content: space-between;
+    border: solid 2px red;
+}
+ul {
+    display: flex;
+    list-style: none;
 }
 a {
     color: white;
