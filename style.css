@@ -35,8 +35,41 @@ li {
     gap: 50px;
 }
 a {
-    color: white;
     text-decoration: none;
+}
+a:visited {color: #E5E7EB;}
+.hero-image {
+    display: flex;
+    width: 600px;
+    height: 260px;
+    margin-right: 150px;
+    margin-left: auto;
+    border: solid 2px red;
+}
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 8px;
+    text-align: center;
+    border: none;
+    padding: 10px;
+}
+.hero-div {
+    display: flex;
+    margin: 40px;
+}
+.hero {
+    font-family: 'Roboto';
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    text-wrap: wrap;
+}
+.hero-secondary {
+    display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-family: 'Roboto';
 }
 .action {
     background-color: #3882F6;
