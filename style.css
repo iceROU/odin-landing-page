@@ -1,21 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-body {
-    display: flex;
-    flex-direction: column;
+html, body{
+    margin:0;
+    padding:0;
+    min-width: 1140px; /* this is the important part*/
     background-color: #1f2937;
-    /* border: solid 2px red; */
 }
 .header {
+    background-color: #1f2937;
     /* background-color: #1f2937; */
     color: #F9FAF8;
     font-family: 'Roboto',sans-serif;
-    border: solid 2px red;
+    /* border: solid 2px red; */
     display: flex;
     align-items: center;
 }
 .header-logo {
+    background-color: #1f2937;
     justify-content: flex-start;
-    border: solid 2px red;
+    /* border: solid 2px red; */
     margin-left: 150px;
     font-weight: 600;
     font-size: 24px;
@@ -24,7 +26,7 @@ body {
     display: flex;
     margin-left: auto;
     margin-right: 150px;
-    border: solid 2px red;
+    /* border: solid 2px red; */
 }
 li {
     color: #E5E7EB;
@@ -44,7 +46,11 @@ a:visited {color: #E5E7EB;}
     height: 260px;
     margin-right: 150px;
     margin-left: auto;
-    border: solid 2px red;
+    /* border: solid 2px red; */
+    margin-top: 100px;
+}
+img{
+    width: 600px;
 }
 button {
     background-color: #3882F6;
@@ -53,23 +59,33 @@ button {
     text-align: center;
     border: none;
     padding: 10px;
+    width: 100px;
+    margin-left: 150px;
 }
 .hero-div {
+    background-color: #1f2937;
     display: flex;
-    margin: 40px;
+    /* margin: 40px; */
+    margin-bottom: 100px;
+
 }
 .hero {
+    display: flex;
     font-family: 'Roboto';
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
     text-wrap: wrap;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-bottom: 0px;
 }
 .hero-secondary {
     display: flex;
     font-size: 18px;
     color: #E5E7EB;
     font-family: 'Roboto';
+    margin-left: 150px;
 }
 .action {
     background-color: #3882F6;
