@@ -106,3 +106,37 @@ button {
     font-weight: 800;
     color: #1f2937;
 }
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Roboto';
+    background-color: white;
+}
+.image {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100px;
+    border: solid 2px  #3882F6;
+    border-radius: 8px;
+    margin: 50px;
+    margin-bottom: 0px;
+}
+.images-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Roboto';
+    background-color: white;   
+    text-align: center;
+}
+.image-text{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100px;
+    margin:52px;    
+    margin-top: 10px;
+    font-size: 10px;
+}
