@@ -98,27 +98,41 @@ button {
 }
 .action {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: row; */
     background-color: #3882F6;
     margin: 50px;
     margin-left: 450px;
-    margin-right: 450px;
+    align-self: center;
     align-items: center;
     border-radius: 6px;
     height: 100px;
     width: 900px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left:50px;
+    margin-right: 450px;
 }
 .call {
+    /* display: flex; */
     font-family: 'Roboto';
     color: #E5E7EB;
     font-weight: 800;
-    font-size: 18;
-    margin-bottom: 0px;
+    font-size: 20px;
+    /* margin-bottom: 0px; */
 }
-.subcall {
+.call .subcall {
     font-family: 'Roboto';
     color: #E5E7EB;
     margin-top: 0px;
+    padding-bottom: 0px;
+    font-weight: 300;
+    font-size: 16px;
+}
+.act-btn {
+    border: 2px solid white;
+    /* align-self: flex-end;
+    margin-bottom: 50px;
+    margin-right: 50px; */
 }
 .quote-div {
     background-color: #E5E7EB;
