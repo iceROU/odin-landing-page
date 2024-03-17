@@ -98,17 +98,27 @@ button {
 }
 .action {
     display: flex;
+    flex-direction: column;
     background-color: #3882F6;
     margin: 50px;
     margin-left: 450px;
     margin-right: 450px;
     align-items: center;
+    border-radius: 6px;
+    height: 100px;
+    width: 900px;
 }
 .call {
     font-family: 'Roboto';
     color: #E5E7EB;
     font-weight: 800;
     font-size: 18;
+    margin-bottom: 0px;
+}
+.subcall {
+    font-family: 'Roboto';
+    color: #E5E7EB;
+    margin-top: 0px;
 }
 .quote-div {
     background-color: #E5E7EB;
