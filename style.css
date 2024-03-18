@@ -36,8 +36,9 @@ li {
     list-style: none;
     gap: 50px;
 }
-a {
+a, a:hover,a:visited {
     text-decoration: none;
+    color: white;
 }
 a:visited {color: #E5E7EB;}
 .hero-image {
