@@ -93,24 +93,26 @@ button {
 }
 .call-to-action{
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
     background-color: white;
 }
 .action {
     display: flex;
-    /* flex-direction: row; */
+    flex-direction: row;
     background-color: #3882F6;
     margin: 50px;
-    margin-left: 450px;
+    margin-left: 300px;
     align-self: center;
     align-items: center;
     border-radius: 6px;
-    height: 100px;
+    height: 80px;
     width: 900px;
     padding-top: 25px;
     padding-bottom: 25px;
     padding-left:50px;
-    margin-right: 450px;
+    margin-right: 300px;
 }
 .call {
     /* display: flex; */
@@ -203,4 +205,17 @@ button {
     margin:52px;    
     margin-top: 10px;
     font-size: 10px;
+}
+.button-div {
+    display: flex;
+    /* margin-right: 50px; */
+}
+footer {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto';
+    color: white;
+    font-size: 14px;
+    height: 50px;
+    align-items: center;
 }
